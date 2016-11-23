@@ -1,0 +1,25 @@
+{
+  "name": "disrupt",
+  "version": "0.0.1",
+  "description": "Component Driven Responsive User Interfaces. Hassle Free.",
+  "main": "src/disrupt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marizmelo/disrupt.git"
+  },
+  "keywords": [
+    "framework",
+    "mvc",
+    "library",
+    "components"
+  ],
+  "author": "Mariz Melo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marizmelo/disrupt/issues"
+  },
+  "homepage": "https://github.com/marizmelo/disrupt#readme"
+}
