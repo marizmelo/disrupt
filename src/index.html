@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Disrupt Client</title>
+  </head>
+  <body>
+    <input type="text" d-input="mydata" value="hey">
+    <span d-output="mydata"></span>
+    <script src="./disrupt.js"></script>
+    <script>
+
+    var input = document.querySelector("[d-input='mydata']");
+      input.addEventListener("keyup", function () {
+        // console.log("here");
+        document.querySelector('[d-output="mydata"]').innerHTML = document.querySelector('[d-input="mydata"]').value;
+      });
+    </script>
+  </body>
+</html>
